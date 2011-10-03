@@ -16,6 +16,7 @@ html {
     no matter the page size:
   */
   background-image: url("img/backgroundimage.png");
+  /* background-image: url("img/column.p2ng");*/s
   padding: 24px;
 }
 
@@ -28,14 +29,15 @@ body {
 div#header {
   position:absolute;
   right:10px;
-  top: 100px;
+  top: 120px;
   margin-left:10px;
   text-align:right;
   color: white;
   background:black;
   border: solid black;
+  border: 10px;
   max-width: 650px;
-  min-height: 200px;
+  min-height: 240px;
 }
 
 div#header h1 {
