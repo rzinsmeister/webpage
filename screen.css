@@ -16,7 +16,7 @@ html {
     no matter the page size:
   */
   background-image: url("img/backgroundimage.png");
-  /* background-image: url("img/column.p2ng");*/s
+   /*background-image: url("img/column.png");*/
   padding: 24px;
 }
 
@@ -24,25 +24,23 @@ body {
   line-height:24px;
   font-family: sans-serif;
   font-size:24px;
-
 }
+
 div#header {
   position:absolute;
-  right:10px;
-  top: 120px;
-  margin-left:10px;
+  right:60px;
+  top: 96px;
   text-align:right;
   color: white;
   background:black;
-  border: solid black;
-  border: 10px;
-  max-width: 650px;
+  max-width: 680px;
   min-height: 240px;
 }
 
 div#header h1 {
-  margin-bottom:100px;
-  margin-top:20px;
+  margin-bottom:132px;
+  margin-top:32px;
+  margin-right: 10px;
   font-size:48px;
 
 }
@@ -52,7 +50,7 @@ ul#navigation li {
   display: block;
   text-align:center;
   width: 150px;
-  height: 26px;
+  height: 24px;
   padding: 13px 5px 13px 5px;  
 }
 
