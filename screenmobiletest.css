@@ -18,24 +18,37 @@ html {
   background-image: url("img/backgroundimage.png");
    /*background-image: url("img/column.png");*/
   padding: 24px;
-  line-height:24px;
 }
 
 body {
-
+  line-height:24px;
   font-family: sans-serif;
-  font-size:12px;
+  font-size:24px;
 }
 
 div#header h1 {
-
-  font-size:48px;
+  padding-top:12px;
+  font-size:36px;
+  padding-bottom:36px;
 }
 
 div#header {
+  color:white;
+  background-color:black;
+  max-height: 360px;
+  padding-left: 15px;
 
-  font-size: 48px;
 }
+
+ul#navigation li {
+  padding-top:24px;
+  padding-bottom:24px;
+  font-size: 24px;
+  
+
+
+}
+
 
 /* Hide Stuff */
 ul.accessibility { display: none; }
