@@ -15,7 +15,7 @@ html {
     so that it tiles to fill the entire viewport,
     no matter the page size:
   */
-  background-image: url("img/backgroundimage.png");
+  background-image: url("img/bac2kgroundimage.png");
    /*background-image: url("img/column.png");*/
   padding: 24px;
 }
@@ -34,7 +34,7 @@ div#header h1 {
 
 div#header {
   color:white;
-  background-color:black;
+  background-color:rgb(26,34,36);
   max-height: 360px;
   padding-left: 15px;
 
@@ -44,11 +44,77 @@ ul#navigation li {
   padding-top:24px;
   padding-bottom:24px;
   font-size: 24px;
-  
-
-
 }
 
+ul#navigation li a:link {
+  color:white;
+  text-decoration:none;
+}
+
+ul#navigation li a:visited {
+  color:rgb(103,127,148);
+}
+
+ul#navigation li a:hover, a:focus{
+  color:rgb(84,76,75);
+}
 
 /* Hide Stuff */
 ul.accessibility { display: none; }
+
+
+@media screen and (min-width: 680px) {
+
+
+div#header {
+  position:absolute;
+  right:60px;
+  top: 96px;
+  text-align:right;
+  color: white;
+  background:black;
+  max-width: 680px;
+  min-height: 240px;
+}
+
+div#header h1 {
+  margin-bottom:132px;
+  margin-top:32px;
+  margin-right: 10px;
+  font-size:48px;
+
+}
+
+ul#navigation li {
+  float: left;
+  display: block;
+  text-align:center;
+  width: 150px;
+  height: 24px;
+  padding: 13px 5px 13px 5px;  
+}
+
+ul#navigation li + li {
+  border-left: solid white 1px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
