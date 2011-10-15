@@ -15,7 +15,9 @@ html {
     so that it tiles to fill the entire viewport,
     no matter the page size:
   */
-  background-image: url("img/bac2kgroundimage.png");
+  /*background-image: url("img/backgroundimage.png");*/
+  background-image: url("img/978px-15-54-15-unit.png");
+  /*background-image: url("img/h2eaderline.png");*/
    /*background-image: url("img/column.png");*/
   padding: 24px;
 }
@@ -37,7 +39,7 @@ div#header {
   background-color:rgb(26,34,36);
   max-height: 360px;
   padding-left: 15px;
-
+ 
 }
 
 ul#navigation li {
@@ -63,24 +65,25 @@ ul#navigation li a:hover, a:focus{
 ul.accessibility { display: none; }
 
 
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 730px) {
 
 
 div#header {
   position:absolute;
-  right:60px;
+  right:30px;
   top: 96px;
   text-align:right;
   color: white;
-  background:black;
-  max-width: 680px;
-  min-height: 240px;
+  background:rgb(26,34,36);
+  max-width:726px;
+  min-height: 216px;
+
 }
 
 div#header h1 {
-  margin-bottom:132px;
+  margin-bottom:48px;
   margin-top:32px;
-  margin-right: 10px;
+  margin-right: 15px;
   font-size:48px;
 
 }
@@ -89,15 +92,16 @@ ul#navigation li {
   float: left;
   display: block;
   text-align:center;
-  width: 150px;
+  width: 100px;
   height: 24px;
-  padding: 13px 5px 13px 5px;  
+  padding: 0px 0px 0px 0px;  
 }
 
 ul#navigation li + li {
-  border-left: solid white 1px;
+  border-left: solid white 0px;
 
 }
+
 }
 
 
