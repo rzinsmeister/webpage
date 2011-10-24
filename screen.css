@@ -105,7 +105,35 @@ ul#navigation li + li {
 }
 
 /*Header   */
+div#head {
+  background-color: rgb(26,34,36);
+  padding-bottom: 48px;
+}
 
+ul#navigate li a:link {
+  color:white;
+  text-decoration:none;
+}
+
+ul#navigate li a:visited {
+  color:rgb(103,127,148);
+}
+
+ul#navigate li a:hover {
+  background-color: white;
+  display: block;
+  color:rgb(84,76,75);
+}
+
+
+ul#navigate li {
+  float: left;
+  display: block;
+  text-align:center;
+  width: 159.75px;
+  height: 24px;
+  padding-right: 0px;  
+}
 
 
 /*CSS for Resume page  */
