@@ -15,7 +15,9 @@ html {
     so that it tiles to fill the entire viewport,
     no matter the page size:
   */
-  background-image: url("img/backgroundimage.png");
+  /*background-image: url("img/backgroundimage.png");*/
+  background-image: url("img/978px-15-54-15-unit.png");
+  /*background-image: url("img/h2eaderline.png");*/
    /*background-image: url("img/column.png");*/
   padding: 24px;
 }
@@ -26,21 +28,64 @@ body {
   font-size:24px;
 }
 
+div#header h1 {
+  padding-top:12px;
+  font-size:36px;
+  padding-bottom:36px;
+}
+
+div#header {
+  color:white;
+  background-color:rgb(26,34,36);
+  max-height: 360px;
+  padding-left: 15px;
+ 
+}
+
+ul#navigation li {
+  padding-top:24px;
+  padding-bottom:24px;
+  font-size: 24px;
+}
+
+ul#navigation li a:link {
+  color:white;
+  text-decoration:none;
+}
+
+ul#navigation li a:visited {
+  color:rgb(103,127,148);
+}
+
+ul#navigation li a:hover {
+  background-color: white;
+  display: block;
+  color:rgb(84,76,75);
+}
+
+/* Hide Stuff */
+ul.accessibility { display: none; }
+
+
+@media screen and (min-width: 730px) {
+
+
 div#header {
   position:absolute;
-  right:60px;
+  right:30px;
   top: 96px;
   text-align:right;
   color: white;
-  background:black;
-  max-width: 680px;
-  min-height: 240px;
+  background:rgb(26,34,36);
+  width:657px;
+  min-height: 216px;
+
 }
 
 div#header h1 {
-  margin-bottom:132px;
+  margin-bottom:48px;
   margin-top:32px;
-  margin-right: 10px;
+  margin-right: 15px;
   font-size:48px;
 
 }
@@ -49,9 +94,9 @@ ul#navigation li {
   float: left;
   display: block;
   text-align:center;
-  width: 150px;
+  width: 159.75px;
   height: 24px;
-  padding: 13px 5px 13px 5px;  
+  padding-right: 0px;  
 }
 
 ul#navigation li + li {
@@ -59,6 +104,107 @@ ul#navigation li + li {
 
 }
 
+/*Header   */
 
-/* Hide Stuff */
-ul.accessibility { display: none; }
+
+
+/*CSS for Resume page  */
+h1 { 
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  padding: 28px 0px 28px 0px;
+}
+
+ul.heading { 
+  text-align: center;
+  font-size: 18px;
+  padding: 12px 0px 16px 0px;
+}
+
+h2 { 
+  font-weight: bold;
+  font-size: 22px;
+  padding: 18px 0px 12px 0px;    
+}
+
+ul.tasks li { 
+  font-size: 15px;
+  padding: 12px 12px 12px 6px;
+  list-style-type: disc;
+  margin-left:5em;
+}
+
+h3.company,h3.university { 
+  font-size:20px;
+  font-weight:bold;
+}
+
+p.job_title { 
+  font-size: 18px;
+  text-decoration: underline;
+  padding: 0px 0px 12px 30px;
+}
+
+h4.dates { 
+  font-style: italic;
+  text-align: right;
+  font-size: 16px;
+}
+
+strong { 
+  font-weight: bold;
+}
+
+em { 
+  font-style: italic;
+}
+
+p.awardedfor { 
+  font-style: italic;      
+}
+
+h2.portfolio_title {
+  text-align: center
+}
+
+p.photo_information {
+  width: auto;
+  height: 50px;
+  border: 2px solid black;
+  margin:15px;
+  padding-top:15px;
+  text-align: center;
+  background: white;
+}
+
+div.photo img {
+  width: 85%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

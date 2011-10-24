@@ -57,7 +57,9 @@ ul#navigation li a:visited {
   color:rgb(103,127,148);
 }
 
-ul#navigation li a:hover, a:focus{
+ul#navigation li a:hover {
+  background-color: white;
+  display: block;
   color:rgb(84,76,75);
 }
 
@@ -75,7 +77,7 @@ div#header {
   text-align:right;
   color: white;
   background:rgb(26,34,36);
-  max-width:726px;
+  width:657px;
   min-height: 216px;
 
 }
@@ -92,13 +94,13 @@ ul#navigation li {
   float: left;
   display: block;
   text-align:center;
-  width: 100px;
+  width: 159.75px;
   height: 24px;
-  padding: 0px 0px 0px 0px;  
+  padding-right: 0px;  
 }
 
 ul#navigation li + li {
-  border-left: solid white 0px;
+  border-left: solid white 1px;
 
 }
 
