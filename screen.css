@@ -15,8 +15,8 @@ html {
     so that it tiles to fill the entire viewport,
     no matter the page size:
   */
-  /*background-image: url("img/backgroundimage.png");*/
-  background-image: url("img/978px-15-54-15-unit.png");
+  background-image: url("img/backgroundimage.png");
+  /*background-image: url("img/978px-15-54-15-unit.png");*/
   /*background-image: url("img/h2eaderline.png");*/
    /*background-image: url("img/column.png");*/
   padding: 24px;
@@ -107,32 +107,44 @@ ul#navigation li + li {
 /*Header   */
 div#head {
   background-color: rgb(26,34,36);
-  padding-bottom: 48px;
+  padding-bottom: 36px;
+  color:white;
 }
 
-ul#navigate li a:link {
+div#head a:link {
   color:white;
   text-decoration:none;
 }
 
-ul#navigate li a:visited {
-  color:rgb(103,127,148);
+div#head a:visited {
+  color:white;
+  /*color:rgb(103,127,148);*/
 }
 
-ul#navigate li a:hover {
+div#head a:hover {
   background-color: white;
   display: block;
   color:rgb(84,76,75);
 }
 
+div#head h1{
+  padding-left:15px;
+  font-size: 24px;
+  text-align:left;
+  padding-top:12px;
+  padding-bottom:0px;
+  font-weight:normal;
+}
 
-ul#navigate li {
+ul#mainnavigation li {
   float: left;
   display: block;
   text-align:center;
-  width: 159.75px;
-  height: 24px;
-  padding-right: 0px;  
+  margin-left:50px;
+  padding-right: 30px; 
+  margin-top:6px;
+
+
 }
 
 
