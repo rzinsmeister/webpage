@@ -230,7 +230,7 @@ p.photo_information {
   text-align: center;
   background: white;
 }
-
+  font-style: italic; 
 div.photo img {
   width: 85%;
   display: block;
@@ -264,8 +264,42 @@ margin-right:auto
 width:set
 */
 
+/*Involvement*/
 
+div#page a:link {
+  color:rgb(26,34,36);
+  text-decoration:none;
+}
 
+div#page a:visited {
+  color:rgb(84,76,75);
+  text-decoration:none;
+  /*color:rgb(103,127,148);*/
+}
+
+div#page a:hover {
+  color:rgb(103,127,148);
+}
+
+div#involvements h1 {
+  text-align:left;
+}
+
+div#involvements h2 {
+  font-style: italic;
+  font-size:16px;
+}
+
+div#involvements h3 {
+  font-size:14px;
+  padding-bottom:24px;
+}
+
+div#involvements p {
+  padding-bottom:24px;
+  font-size:20px;
+  text-align:justify;
+}
 
 
 
