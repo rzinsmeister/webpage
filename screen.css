@@ -34,7 +34,6 @@ div#page a:link {
 
 div#page a:visited {
   color:white;
-
 }
 
 div#page a:hover {
@@ -42,15 +41,9 @@ div#page a:hover {
   text-decoration:none;
 }
 
-/*ul#navigation li a:hover {
-  background-color: white;
-  display: block;
-  color:rgb(84,76,75);*/
-}
-
-
 /*Mobile Device*/
 @media screen and (max-width: 729px) {
+/*header for mobile*/
 div#header h1, div#head h1{
   font-size:36px;
   padding: 12px 15px 36px 0px;
@@ -62,8 +55,6 @@ div#header, div#head{
   background-color:rgb(26,34,36);
   max-height: 360px;
   padding-left: 15px;
-  
- 
 }
 
 ul#navigation li, ul#mainnavigation li {
@@ -79,10 +70,20 @@ div#footer {
   position:relative;
   font-size: 12px;
   text-align:right;
-
 }
 
+/*Body for Mobile Devices*/
+div#bio {
+  margin:auto;
+  padding-top:48px;
+  min-width: 300px;
+  text-align:justify;
+  font-size:18px;
+}
 
+div#bio p {
+  padding-bottom: 24px;
+}
 
 /* Hide Stuff */
 ul.accessibility { display: none; }
@@ -136,22 +137,7 @@ div#head {
 
 
 
-/*Redundant use of linking styles - how to combine them */
-/*div#head a:link {
-  color:rgb(26,34,36);
-  text-decoration:none;
-}
 
-div#head a:visited {
-  color:white;
-  text-decoration:none;
-  /*color:rgb(103,127,148);
-}
-
-div#head a:hover {
-
-  color:rgb(84,76,75);
-}*/
 
 div#head h1{
   padding: 11px 45px 13px 30px;
@@ -177,6 +163,24 @@ ul#mainnavigation li {
 
 }
 
+/*Bio */
+div#bio {
+  font-size:18px;
+  width: 672px;
+  margin-left:auto;
+  margin-right:auto;
+  min-height: 912px;
+}
+
+div#bio p {
+  padding-bottom:24px;
+  text-align:justify;
+}
+/*
+margin-left:auto
+margin-right:auto
+width:set
+*/
 
 /*CSS for Resume page  */
 h1 { 
@@ -272,44 +276,10 @@ div.photo img {
 
 }
 
-/*Bio */
-div#bio {
-  font-size:18px;
-  width: 672px;
-  margin-left:auto;
-  margin-right:auto;
-  min-height: 912px;
-}
 
-div#bio p {
-  padding-bottom:24px;
-  text-align:justify;
-}
-
-
-
-/*
-margin-left:auto
-margin-right:auto
-width:set
-*/
 
 /*Involvement*/
-/*
-div#page a:link {
-  color:rgb(26,34,36);
-  text-decoration:none;
-}
 
-div#page a:visited {
-  color:rgb(84,76,75);
-  text-decoration:none;
-  /*color:rgb(103,127,148);
-}
-
-div#page a:hover {
-  color:rgb(103,127,148);
-}*/
 
 div#involvements h1 {
   text-align:left;
