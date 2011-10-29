@@ -18,6 +18,7 @@ html {
   background-image: 7url("img/backgroundimage.png");
   background-image: 7url("img/978px-15-54-15-unit.png");
   background-image: url("img/backgroundline.png");
+  background-repeat: repeat-x;
   /*background-image: url("img/h2eaderline.png");*/
    /*background-image: url("img/column.png");*/
   padding: 24px;
@@ -29,9 +30,11 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
+
+
 div#header h1 {
   font-size:36px;
-  padding-bottom:36px;
+  padding: 12px 15px 36px 0px;
   text-align:right;
 }
 
@@ -40,12 +43,22 @@ div#header {
   background-color:rgb(26,34,36);
   max-height: 360px;
   padding-left: 15px;
+ 
 }
 
 ul#navigation li {
   padding-top:24px;
   padding-bottom:24px;
   font-size: 24px;
+}
+
+div#footer {
+  border-top: solid rgb(84,76,75) 3px;
+  margin-top:auto;
+  position:relative;
+  font-size: 12px;
+  text-align:right;
+
 }
 
 /* Links */
@@ -84,9 +97,9 @@ div#header {
 }
 
 div#header h1 {
-  margin-bottom:48px;
+  margin-bottom:40px;
   margin-top:32px;
-  margin-right: 15px;
+  margin-right: 0px;
   font-size:48px;
 }
 
@@ -96,7 +109,7 @@ ul#navigation li {
   text-align:center;
   width: 159.75px;
   height: 24px;
-  padding-right: 0px;  
+
 }
 
 ul#navigation li + li {
@@ -255,6 +268,7 @@ div#bio {
   width: 672px;
   margin-left:auto;
   margin-right:auto;
+  min-height: 912px;
 }
 
 div#bio p {
