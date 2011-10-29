@@ -37,6 +37,15 @@ div#page a:visited {
 div#page a:hover {
   color:rgb(103,127,148);
   text-decoration:none;
+
+div#involvements a:link {
+  color:black;
+}
+
+div#involvements a:visited {
+  color:black;
+}
+
 }
 
 /*Mobile Device*/
@@ -269,6 +278,7 @@ div.photo img {
 
 div#involvements h1 {
   text-align:left;
+  
 }
 
 div#involvements h2 {
