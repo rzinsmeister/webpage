@@ -79,6 +79,7 @@ div#footer {
   position:relative;
   font-size: 12px;
   text-align:right;
+  align:bottom;
 }
 
 /*Body for Mobile Devices*/
