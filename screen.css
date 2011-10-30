@@ -79,7 +79,7 @@ div#footer {
   position:relative;
   font-size: 12px;
   text-align:right;
-  align:bottom;
+
 }
 
 /*Body for Mobile Devices*/
@@ -211,69 +211,9 @@ div#contact {
 }
 
 
-
-/*h1 { 
-  font-weight: bold;
+h1.portfolio {
+  text-align: center;
   font-size: 24px;
-  text-align: center;
-  padding: 0px 0px 24px 0px;
-}
-
-ul.heading { 
-  text-align: center;
-  font-size: 18px;
-  padding: 0px 0px 24px 0px;
-}
-
-
-
-h2 { 
-  font-weight: bold;
-  font-size: 22px;
-  padding: 0px 0px 0px 0px;    
-}
-
-h3.company,h3.university { 
-  font-size:18px;
-  font-weight:bold;
-  padding: 0px 0px 0px 0px;
-}
-
-h4.dates { 
-  font-style: italic;
-  font-size: 15px;
-  padding-bottom:0px;
-
-}
-
-p.job_title { 
-  font-size: 16px;
-  text-decoration: underline;
-  padding: 0px 0px 0px 30px;
-}
-
-ul.tasks li { 
-  font-size: 15px;
-  padding: 12px 12px 6px 6px;
-  list-style-type: disc;
-  margin-left:5em;
-}
-
-
-
-
-
-
-strong { 
-  font-weight: bold;
-}
-
-em { 
-  font-style: italic;
-}
-
-p.awardedfor { 
-  font-style: italic;      
 }
 
 h2.portfolio_title {
@@ -288,8 +228,8 @@ p.photo_information {
   padding-top:15px;
   text-align: center;
   background: white;
-}
-  font-style: italic; 
+  font-style: italic; }
+
 div.photo img {
   width: 85%;
   display: block;
@@ -297,19 +237,18 @@ div.photo img {
   margin-right: auto;
   margin-top: 20px;
   border: 1px solid black;
+
 }
 
 
 }
-*/
+
 
 
 /*Involvement*/
 
-
 div#involvements h1 {
   text-align:left;
-  
 }
 
 div#involvements h2 {
