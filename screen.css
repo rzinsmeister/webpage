@@ -11,10 +11,10 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 html {
 
-  background-image: 7url("img/backgroundimage.png");
+  background-image: url("img/backgroundimage.png");
   background-image: 7url("img/978px-15-54-15-unit.png");
-  background-image: url("img/backgroundline.png");
-  background-repeat: repeat-x;
+  background-image: 7url("img/backgroundline.png");
+  /*background-repeat: repeat-x;*/
   padding: 24px;
 }
 
@@ -86,12 +86,33 @@ div#mainbody {
   margin:auto;
   padding-top:48px;
   min-width: 300px;
-  text-align:justify;
+  /*text-align:justify;*/
   font-size:18px;
 }
 
 div#mainbody p {
   padding-bottom: 24px;
+}
+
+div#mainbody h2 {
+  font-size: 20px;
+  text-decoration:underline;
+  padding-bottom:24px;
+}
+
+div#mainbody h4 {
+  font-size:14px;
+}
+
+div#mainbody li {
+  list-style-type: disc;
+  font-size:16px;
+  margin-left: 15px;
+  padding-bottom:24px;
+}
+
+h4.dates {
+padding-bottom:24px;
 }
 
 /* Hide Stuff */
@@ -176,9 +197,8 @@ div#bio p {
   text-align:justify;
 }
 
-
 /*Resume page*/
-h1 { 
+/*h1 { 
   font-weight: bold;
   font-size: 24px;
   text-align: center;
@@ -270,7 +290,7 @@ div.photo img {
 
 
 }
-
+*/
 
 
 /*Involvement*/
