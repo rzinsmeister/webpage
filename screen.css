@@ -11,10 +11,10 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 html {
 
-  background-image: url("img/backgroundimage.png");
+  background-image: 7url("img/backgroundimage.png");
   background-image: 7url("img/978px-15-54-15-unit.png");
-  background-image: 7url("img/backgroundline.png");
-  /*background-repeat: repeat-x;*/
+  background-image: url("img/backgroundline.png");
+  background-repeat: repeat-x;
   padding: 24px;
 }
 
@@ -107,12 +107,18 @@ div#mainbody h4 {
 div#mainbody li {
   list-style-type: disc;
   font-size:16px;
-  margin-left: 15px;
+  margin-left: 30px;
   padding-bottom:24px;
 }
 
 h4.dates {
-padding-bottom:24px;
+  padding-bottom:24px;
+  text-align:right;
+}
+
+div#language {
+  text-align: right;
+  font-size: 12px;
 }
 
 /* Hide Stuff */
@@ -198,6 +204,13 @@ div#bio p {
 }
 
 /*Resume page*/
+
+div#contact {
+  text-align:center;
+}
+
+
+
 /*h1 { 
   font-weight: bold;
   font-size: 24px;
@@ -211,10 +224,7 @@ ul.heading {
   padding: 0px 0px 24px 0px;
 }
 
-div#language {
-  text-align: right;
-  font-size: 12px;
-}
+
 
 h2 { 
   font-weight: bold;
