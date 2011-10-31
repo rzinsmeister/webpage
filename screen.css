@@ -11,8 +11,11 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 html {
 
+/*24px line height */  
   background-image: 7url("img/backgroundimage.png");
+/*Columns */
   background-image: 7url("img/978px-15-54-15-unit.png");
+/*Background for regular view */
   background-image: url("img/backgroundline.png");
   background-repeat: repeat-x;
   padding: 24px;
@@ -37,6 +40,7 @@ div#page a:visited {
 div#page a:hover {
   color:rgb(103,127,148);
   text-decoration:none;
+}
 
 div#involvements a:link {
   color:black;
@@ -46,7 +50,7 @@ div#involvements a:visited {
   color:black;
 }
 
-}
+
 
 /*Mobile Device*/
 @media screen and (max-width: 729px) {
@@ -79,10 +83,9 @@ div#footer {
   position:relative;
   font-size: 12px;
   text-align:right;
-
 }
 
-/*Body for Mobile Devices*/
+/*Body for Mobile Devices all pages*/
 div#mainbody {
   margin:auto;
   padding-top:48px;
@@ -127,6 +130,7 @@ ul.accessibility { display: none; }
 
 /*Anything larger than 730 gets these menu adjustements*/
 @media screen and (min-width: 730px) {
+
 /*Header for the index page */
 div#header {
   position:absolute;
@@ -161,6 +165,7 @@ ul#navigation li + li {
 }
 
 /*Header for all pages*/
+
 div#head {
   background-color: drgb(26,34,36);
   padding-bottom: 42px;
@@ -191,6 +196,7 @@ ul#mainnavigation li {
 }
 
 /*Bio */
+
 div#bio {
   font-size:18px;
   width: 672px;
@@ -204,12 +210,13 @@ div#bio p {
   text-align:justify;
 }
 
-/*Resume page*/
+/*Resume Page*/
 
 div#contact {
   text-align:center;
 }
 
+/*Porfolio Page  */
 
 h1.portfolio {
   text-align: center;
@@ -228,7 +235,8 @@ p.photo_information {
   padding-top:15px;
   text-align: center;
   background: white;
-  font-style: italic; }
+  font-style: italic; 
+}
 
 div.photo img {
   width: 85%;
@@ -237,18 +245,13 @@ div.photo img {
   margin-right: auto;
   margin-top: 20px;
   border: 1px solid black;
-
 }
-
-
-}
-
-
 
 /*Involvement*/
 
 div#involvements h1 {
   text-align:left;
+  font-size:24px;
 }
 
 div#involvements h2 {
@@ -267,6 +270,7 @@ div#involvements p {
   text-align:justify;
 }
 
+}
 
 
 
