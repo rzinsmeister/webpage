@@ -50,6 +50,10 @@ div#involvements a:visited {
   color:black;
 }
 
+div#language a:visited {
+  color:rgb(103,127,148);
+
+}
 
 
 /*Mobile Device*/
@@ -183,7 +187,8 @@ div#head h1{
   font-weight:normal;
   border-bottom: solid rgb(84,76,75) 3px;
   background-color:rgb(26,34,36);
-  margin-left:615px;
+  float:right;
+  /*margin-left:615px;*/
 }
 
 ul#mainnavigation li {
@@ -191,6 +196,7 @@ ul#mainnavigation li {
   display: block;
   text-align:center;
   color:white;
+  margin-top:51px;
   padding: 11px 30px 10px 30px;
   background-color:rgb(26,34,36);
 }
