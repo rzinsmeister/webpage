@@ -35,6 +35,7 @@ div#page a:link {
 
 div#page a:visited {
   color:white;
+  text-decoration:none;
 }
 
 div#page a:hover {
@@ -42,6 +43,7 @@ div#page a:hover {
   text-decoration:none;
 }
 
+/*Links that are also titles*/
 div#involvements a:link {
   color:black;
 }
@@ -52,12 +54,10 @@ div#involvements a:visited {
 
 div#language a:visited {
   color:rgb(103,127,148);
-
 }
 
-
 /*Mobile Device*/
-@media screen and (max-width: 729px) {
+@media screen and (min-width: 300px) {
 
 /*header for mobile*/
 div#header h1, div#head h1{
@@ -66,7 +66,7 @@ div#header h1, div#head h1{
   text-align:right;
 }
 
-div#header, div#head{
+div#header {
   color:white;
   background-color:rgb(26,34,36);
   max-height: 360px;
@@ -87,6 +87,7 @@ div#footer {
   position:relative;
   font-size: 12px;
   text-align:right;
+  margin-top:48px;
 }
 
 /*Body for Mobile Devices all pages*/
@@ -143,7 +144,7 @@ div#header {
   text-align:right;
   color: white;
   background:rgb(26,34,36);
-  width:657px;
+  width:642px;
   min-height: 189px;
 }
 
@@ -171,14 +172,15 @@ ul#navigation li + li {
 /*Header for all pages*/
 
 div#head {
-  background-color: drgb(26,34,36);
+ 
   padding-bottom: 42px;
   margin-bottom:48px;
   color:rgb(26,34,36);
+
 }
 
 div#head h1{
-  padding: 11px 45px 13px 30px;
+  padding: 11px 15px 13px 15px;
   /*padding-right:15px;*/
   font-size: 24px;
   text-align:right;
@@ -188,6 +190,7 @@ div#head h1{
   border-bottom: solid rgb(84,76,75) 3px;
   background-color:rgb(26,34,36);
   float:right;
+
   /*margin-left:615px;*/
 }
 
@@ -197,20 +200,24 @@ ul#mainnavigation li {
   text-align:center;
   color:white;
   margin-top:51px;
-  padding: 11px 30px 10px 30px;
+  padding: 11px 11px 10px 11px;
   background-color:rgb(26,34,36);
+}
+
+
+/*MOVE??   */
+div#mainbody {
+  width: 696px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 /*Bio */
 
 div#bio {
   font-size:18px;
-  width: 672px;
-  margin-left:auto;
-  margin-right:auto;
-  min-height: 912px;
 }
-
+  
 div#bio p {
   padding-bottom:24px;
   text-align:justify;
