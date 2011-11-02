@@ -136,6 +136,8 @@ ul.accessibility { display: none; }
 div#header, div#head {
   background-color:inherit;
 }
+/*Attempts on making percentages */
+
 
 /*Header for the index page */
 div#header {
