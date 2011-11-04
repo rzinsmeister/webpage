@@ -26,6 +26,8 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
+
+
 /* Links */
 div#page a:link {
   color:white;
@@ -55,11 +57,12 @@ div#language a:visited {
   color:rgb(103,127,148);
 }
 
+
 /*Mobile Device*/
 /*header for mobile*/
 div#header h1, div#head h1{
   font-size:36px;
-  padding: 12px 15px 36px 0px;
+  padding: 12px 2.05761316872428% /*15px / 729 */ 36px 0px;
   text-align:right;
 }
 
@@ -67,7 +70,7 @@ div#header, div#head {
   color:white;
   background-color:rgb(26,34,36);
   max-height: 360px;
-  padding-left: 15px;
+  padding-left: 2.05761316872428% /*15px / 729 */;
 }
 
 ul#navigation li, ul#mainnavigation li {
@@ -133,6 +136,11 @@ ul.accessibility { display: none; }
 /*Anything larger than 730 gets these menu adjustements*/
 @media screen and (min-width: 730px) {
 
+div#page {
+  width:82.822086%; /*810px / 978px */
+  margin: 0 auto;
+}
+
 div#header, div#head {
   background-color:inherit;
 }
@@ -141,20 +149,26 @@ div#header, div#head {
 
 /*Header for the index page */
 div#header {
-  position:absolute;
+ /* position:absolute;
   right:1em;
   top: 75px;
   text-align:right;
   color: white;
   background:rgb(26,34,36);
-  width:642px;
-  min-height: 189px;
+  width: 642px;
+  min-height: 189px; */
+
+  float:right;
+  width: 68.888888888888889%; /*558px / 810px */
+  background:rgb(26,34,36);
+  margin-top:75px;
+
 }
 
 div#header h1 {
   margin-bottom:40px;
   margin-top:32px;
-  margin-right:15px;
+  margin-right:1.851851851851852% /*15px / 810px */;
   font-size:48px;
   text-align:right;
 }
@@ -163,9 +177,10 @@ ul#navigation li {
   float: left;
   display: block;
   text-align:center;
-  width: 159.75px;
+  width: 24.865591397849462% /*138.75 / 558*/
+/*159.75px / 642px */;
   height: 24px;
-  padding: 18px 0px 27px 0px;
+  /*padding: 18px 0px 27px 0px;*/
 }
 
 ul#navigation li + li {
@@ -183,7 +198,7 @@ div#head {
 }
 
 div#head h1{
-  padding: 11px 15px 13px 15px;
+  /*padding: 11px 15px 13px 15px;*/
   /*padding-right:15px;*/
   font-size: 24px;
   text-align:right;
