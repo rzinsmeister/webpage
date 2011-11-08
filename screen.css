@@ -13,11 +13,11 @@ html {
 /*24px line height */  
   background-image: 7url("img/backgroundimage.png");
 /*Columns */
-  background-image: url("img/978px-15-54-15-unit.png");
+  background-image: 7url("img/978px-15-54-15-unit.png");
 /*Background for regular view */
-  background-image: 7url("img/backgroundline.png");
-  background-repeat: 7repeat-x;
-  padding: 24px;
+  background-image: url("img/backgroundline.png");
+  background-repeat: repeat-x;
+  /*padding: 24px;*/
 }
 
 body {
@@ -25,7 +25,6 @@ body {
   font-size:24px;
   font-family: 'Quicksand', sans-serif;
 }
-
 
 
 /* Links */
@@ -58,26 +57,7 @@ div#language a:visited {
 }
 
 
-/*Mobile Device*/
-/*header for mobile*/
-div#header h1, div#head h1{
-  font-size:36px;
-  padding: 12px 2.05761316872428% /*15px / 729 */ 36px 0px;
-  text-align:right;
-}
 
-div#header, div#head {
-  color:white;
-  background-color:rgb(26,34,36);
-  max-height: 360px;
-  padding-left: 2.05761316872428% /*15px / 729 */;
-}
-
-ul#navigation li, ul#mainnavigation li {
-  padding-top:24px;
-  padding-bottom:24px;
-  font-size: 24px;
-}
 
 
 /*Footer for all pages*/
@@ -90,11 +70,53 @@ div#footer {
   margin-top:48px;
 }
 
+/* Hide Stuff */
+ul.accessibility { display: none; }
+
+
+div#header {
+  margin-top:75px;
+}
+
+div#head {
+  margin-top:24px;
+}
+
+/*Mobile Device Header*/
+
+@media screen and (min-width: 300px) {
+
+div#header, div#head {
+  color:white;
+  background-color:rgb(26,34,36);
+  max-height: 360px;
+  margin-left: 5% /*15px / 300px */;
+  margin-right: 5% /*15px / 300px */;
+}
+
+div#header h1 {
+  font-size:36px;
+  padding: 12px 2.05761316872428% /*15px / 729 */ 36px 0px;
+  text-align:right;
+}
+
+div#head h1 {
+  border-bottom: solid rgb(84,76,75) 5px;
+  text-align:right;
+  font-size:36px;
+  padding: 12px 2.05761316872428% /*15px / 729 */ 11px 0px;
+}
+
+ul#navigation li, ul#mainnavigation li {
+  padding-top:24px;
+  padding-bottom:24px;
+  font-size: 24px;
+}
+
 /*Body for Mobile Devices all pages*/
 div#mainbody {
-  margin:auto;
+  margin:auto 10%;
   padding-top:48px;
-  min-width: 300px;
   /*text-align:justify;*/
   font-size:18px;
 }
@@ -116,7 +138,7 @@ div#mainbody h4 {
 div#mainbody li {
   list-style-type: disc;
   font-size:16px;
-  margin-left: 30px;
+  margin-left: 10% /* 30px / 300px */;
   padding-bottom:24px;
 }
 
@@ -129,58 +151,38 @@ div#language {
   text-align: right;
   font-size: 12px;
 }
+}
 
-/* Hide Stuff */
-ul.accessibility { display: none; }
 
-/*Anything larger than 730 gets these menu adjustements*/
-@media screen and (min-width: 730px) {
+@media screen and (min-width: 519px) {
 
 div#page {
-  width:82.822086%; /*810px / 978px */
-  margin: 0 auto;
+  width:94.047619047619048%; /*474px / 504px */
+  margin: auto 0%/* 30px / 504px */;
 }
 
-div#header, div#head {
-  background-color:inherit;
-}
-/*Attempts on making percentages */
-
-
-/*Header for the index page */
 div#header {
- /* position:absolute;
-  right:1em;
-  top: 75px;
-  text-align:right;
+ /* margin-right: 6.329113924050633% /*30px / 474px */;
+  float: right;
+  background-color:rgb(26,34,36);
+  width: 96.835443037974684% /* 459 / 474*/;
+  min-height: 189px;
   color: white;
-  background:rgb(26,34,36);
-  width: 642px;
-  min-height: 189px; */
-
-  float:right;
-  width: 68.888888888888889%; /*558px / 810px */
-  background:rgb(26,34,36);
-  margin-top:75px;
-
 }
 
 div#header h1 {
+  font-size:48px;
+  padding-bottom:24px;
+  text-align:right;
   margin-bottom:40px;
   margin-top:32px;
-  margin-right:1.851851851851852% /*15px / 810px */;
-  font-size:48px;
-  text-align:right;
 }
 
 ul#navigation li {
   float: left;
-  display: block;
   text-align:center;
-  width: 24.865591397849462% /*138.75 / 558*/
-/*159.75px / 642px */;
-  height: 24px;
-  /*padding: 18px 0px 27px 0px;*/
+  width:24.841772151898734% /*117.75px / 474px*/; 
+  padding: 18px 0px 27px 0px;
 }
 
 ul#navigation li + li {
@@ -188,47 +190,80 @@ ul#navigation li + li {
 }
 
 /*Header for all pages*/
-
 div#head {
- 
   padding-bottom: 42px;
   margin-bottom:48px;
   color:rgb(26,34,36);
-
 }
 
 div#head h1{
   /*padding: 11px 15px 13px 15px;*/
   /*padding-right:15px;*/
+/*  position:static right;
+  float:right;
   font-size: 24px;
   text-align:right;
-  /*padding-top:24px;
-  padding-bottom:0px;*/
+  padding-top:24px;
+  padding-bottom:0px;
   font-weight:normal;
   border-bottom: solid rgb(84,76,75) 3px;
   background-color:rgb(26,34,36);
-  float:right;
+/*
 
   /*margin-left:615px;*/
 }
 
 ul#mainnavigation li {
   float: left;
+
   display: block;
   text-align:center;
   color:white;
-  margin-top:51px;
-  padding: 11px 11px 10px 11px;
+  margin-top:0px;
+  padding: 11px 11px 6px 11px;
   background-color:rgb(26,34,36);
 }
 
 
-/*MOVE??   */
-div#mainbody {
-  width: 696px;
-  margin-left:auto;
-  margin-right:auto;
+/*div#header, div#head {
+  background-color:inherit;
+}*/
+
 }
+
+
+@media screen and (min-width: 642px) {
+
+div#page { 
+  width:91.452991452991453%; /*642px / 702px */
+  /*margin: 0 auto; */
+}
+
+div#header {
+  float:right;
+  width: 86.91588785046729%; /*558px / 642px */
+
+}
+
+}
+
+@media screen and (min-width: 978px) {
+
+div#page {
+  width: 79.51219512195122% ;/*978px / 1230px*/ 
+}
+
+div#header {
+  float:right;
+  width:65.644171779141104% ;/*558px / 978px*/
+  margin-right: -10%;
+}
+/* negative margin to get it into the margin? */
+}
+
+
+
+
 
 /*Bio */
 
