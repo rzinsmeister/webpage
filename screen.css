@@ -26,7 +26,6 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
-
 /* Links */
 div#page a:link {
   color:white;
@@ -57,9 +56,6 @@ div#language a:visited {
 }
 
 
-
-
-
 /*Footer for all pages*/
 div#footer {
   border-top: solid rgb(84,76,75) 3px;
@@ -73,7 +69,7 @@ div#footer {
 /* Hide Stuff */
 ul.accessibility { display: none; }
 
-
+/*All pages */
 div#header {
   margin-top:75px;
 }
@@ -82,9 +78,10 @@ div#head {
   margin-top:24px;
 }
 
-/*Mobile Device Header*/
 
 @media screen and (min-width: 300px) {
+
+/*Mobile Device Header*/
 
 div#header, div#head {
   color:white;
@@ -96,7 +93,7 @@ div#header, div#head {
 
 div#header h1 {
   font-size:36px;
-  padding: 12px 2.05761316872428% /*15px / 729 */ 36px 0px;
+  padding: 12px 3.333333333% /*10px / 300px*/ 36px 0px;
   text-align:right;
 }
 
@@ -104,20 +101,23 @@ div#head h1 {
   border-bottom: solid rgb(84,76,75) 5px;
   text-align:right;
   font-size:36px;
-  padding: 12px 2.05761316872428% /*15px / 729 */ 11px 0px;
+  padding: 12px 3.333333333% /*10px / 300px*/ 11px 0px;
 }
 
 ul#navigation li, ul#mainnavigation li {
-  padding-top:24px;
-  padding-bottom:24px;
   font-size: 24px;
+  padding: 24px 0px 24px 3.333333333% /*10px / 300px*/;
+}
+
+ul#navigation li + li {
+  border-left: solid white 1px;
 }
 
 /*Body for Mobile Devices all pages*/
+
 div#mainbody {
   margin:auto 10%;
   padding-top:48px;
-  /*text-align:justify;*/
   font-size:18px;
 }
 
@@ -153,20 +153,21 @@ div#language {
 }
 }
 
-
 @media screen and (min-width: 519px) {
 
 div#page {
   width:94.047619047619048%; /*474px / 504px */
-  margin: auto 0%/* 30px / 504px */;
+  margin:  0 auto;
 }
+
+/*Header for all pages*/
 
 div#header {
  /* margin-right: 6.329113924050633% /*30px / 474px */;
   float: right;
-  background-color:rgb(26,34,36);
+  /*background-color:rgb(26,34,36);*/
   width: 96.835443037974684% /* 459 / 474*/;
-  min-height: 189px;
+  /*min-height: 189px;*/
   color: white;
 }
 
@@ -185,11 +186,11 @@ ul#navigation li {
   padding: 18px 0px 27px 0px;
 }
 
-ul#navigation li + li {
+ul#mainnavigation li + li {
   border-left: solid white 1px;
 }
 
-/*Header for all pages*/
+
 div#head {
   padding-bottom: 42px;
   margin-bottom:48px;
@@ -236,7 +237,7 @@ ul#mainnavigation li {
 
 div#page { 
   width:91.452991452991453%; /*642px / 702px */
-  /*margin: 0 auto; */
+  margin: 0 auto;
 }
 
 div#header {
@@ -287,17 +288,19 @@ div#contact {
 h1.portfolio {
   text-align: center;
   font-size: 24px;
+  padding-bottom:24px;
 }
 
 h2.portfolio_title {
-  text-align: center
+  text-align: center;
+  padding-bottom:24px;
 }
 
 p.photo_information {
-  width: auto;
-  height: 50px;
+  width: 90%;
+  height: 90%;
   border: 2px solid black;
-  margin:15px;
+  margin:5%; 
   padding-top:15px;
   text-align: center;
   background: white;
