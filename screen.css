@@ -11,7 +11,7 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 html {
 /*24px line height */  
-  background-image: 7url("img/backgroundimage.png");
+  background-image: url("img/backgroundimage.png");
 /*Columns */
   background-image: 7url("img/978px-15-54-15-unit.png");
 /*Background for regular view */
@@ -106,7 +106,7 @@ div#head h1 {
 
 ul#navigation li, ul#mainnavigation li {
   font-size: 24px;
-  padding: 24px 0px 24px 3.333333333% /*10px / 300px*/;
+  padding: 23px 0px 24px 3.333333333% /*10px / 300px*/;
 }
 
 ul#navigation li + li {
@@ -165,7 +165,6 @@ div#page {
 div#header {
   float: right;
   width: 96.835443037974684% /* 459 / 474*/;
-  color: white;
 }
 
 div#header h1 {
@@ -190,7 +189,7 @@ ul#mainnavigation li + li {
 /*Header for all pages */
 
 div#head {
-  padding-bottom: 42px;
+  padding-bottom: 44px;
   margin-bottom:48px;
 }
 
@@ -198,8 +197,7 @@ ul#mainnavigation li {
   float: left;
   display: block;
   text-align:center;
-  color:white;
-  padding: 11px 2.320675105%/*11px / 474px*/ 6px 2.320675105%;
+  padding: 10px 2.320675105%/*11px / 474px*/ 9px 2.320675105%;
 }
 
 }
@@ -235,11 +233,11 @@ div#header {
 
 /*Bio */
 
-div#bio {
+div.bio {
   font-size:18px;
 }
   
-div#bio p {
+div.bio p {
   padding-bottom:24px;
   text-align:justify;
 }
@@ -251,11 +249,15 @@ div#contact {
 }
 
 /*Porfolio Page  */
-
+/*24px line height */  
+  background-image: url("img/backgroundimage.png");
+/*Columns */
+  background-image: 7url("img/978px-15-54-15-unit.png");
+/*Background for regular view */
 h1.portfolio {
   text-align: center;
   font-size: 24px;
-  padding-bottom:24px;
+  padding-bottom:26px;
 }
 
 h2.portfolio_title {
@@ -265,9 +267,9 @@ h2.portfolio_title {
 
 p.photo_information {
   width: 90%;
-  height: 90%;
   border: 2px solid black;
   margin:5%; 
+  padding: 15px 1.666666667%/*5px / 300px*/ 0px 1.666666667%;
   padding-top:15px;
   text-align: center;
   background: white;
@@ -279,7 +281,7 @@ div.photo img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 29px;
   border: 1px solid black;
 }
 
@@ -306,7 +308,7 @@ div#involvements p {
   text-align:justify;
 }
 
-}
+
 
 
 
