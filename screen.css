@@ -13,10 +13,11 @@ html {
 /*24px line height */  
   background-image: url("img/backgroundimage.png");
 /*Columns */
-  background-image: 7url("img/978px-15-54-15-unit.png");
+  background-image: url("img/978px-15-54-15-unit.png");
+
 /*Background for regular view */
-  background-image: url("img/backgroundline.png");
-  background-repeat: repeat-x;
+  background-image: 7url("img/backgroundline.png");
+  background-repeat: 7repeat-x;
   /*padding: 24px;*/
 }
 
@@ -33,7 +34,8 @@ div#page a:link {
 }
 
 div#page a:visited {
-  color:white;
+  color:white;  margin-left: auto;
+  margin-right: auto;
   text-decoration:none;
 }
 
@@ -249,11 +251,11 @@ div#contact {
 }
 
 /*Porfolio Page  */
-/*24px line height */  
-  background-image: url("img/backgroundimage.png");
-/*Columns */
-  background-image: 7url("img/978px-15-54-15-unit.png");
-/*Background for regular view */
+
+div.portfolio {
+
+}
+
 h1.portfolio {
   text-align: center;
   font-size: 24px;
@@ -277,7 +279,7 @@ p.photo_information {
 }
 
 div.photo img {
-  width: 85%;
+  width: 90%;
   display: block;
   margin-left: auto;
   margin-right: auto;
