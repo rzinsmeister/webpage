@@ -61,6 +61,10 @@ div#language a:visited {
   color:rgb(103,127,148);
 }
 
+div#mainbody.index a:visited {
+  color: rgb(84,76,75);
+}
+
 
 /*Footer for all pages*/
 div#footer {
@@ -171,6 +175,7 @@ div#page {
 div#header {
   float: right;
   width: 96.835443037974684% /* 459 / 474*/;
+  margin-bottom:48px;
 }
 
 div#header h1 {
@@ -234,6 +239,16 @@ div#header {
   margin-right: -10%;
 }
 
+}
+
+/*Index*/
+
+div.index {
+  text-align:right;
+}
+
+div.index a {
+  font-size:14px;
 }
 
 
