@@ -10,15 +10,10 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 /*My Site Styles*/
 
 html {
-/*24px line height */  
-  background-image: 7url("img/backgroundimage.png");
-/*Columns */
-  background-image: 7url("img/978px-15-54-15-unit.png");
 
-/*Background for regular view */
   background-image: url("img/backgroundline.png");
   background-repeat: repeat-x;
-  /*padding: 24px;*/
+
 }
 
 body {
@@ -123,6 +118,10 @@ ul#navigation li + li {
   border-left: solid white 1px;
 }
 
+
+
+
+
 /*Body for Mobile Devices all pages*/
 
 div#mainbody {
@@ -175,7 +174,8 @@ div#page {
 div#header {
   float: right;
   width: 96.835443037974684% /* 459 / 474*/;
-  margin-bottom:48px;
+  margin-bottom:60px;
+
 }
 
 div#header h1 {
@@ -239,12 +239,18 @@ div#header {
   margin-right: -10%;
 }
 
+div.index {
+  position: absolute;
+  top: 288px;
+}
+
 }
 
 /*Index*/
 
 div.index {
   text-align:right;
+  
 }
 
 div.index a {
