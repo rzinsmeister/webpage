@@ -8,12 +8,9 @@ version: 2.9.0
 html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var{font:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
 
 /*My Site Styles*/
-
 html {
-
   background-image: url("img/backgroundline.png");
   background-repeat: repeat-x;
-
 }
 
 body {
@@ -23,13 +20,9 @@ body {
 }
 
 /* Links */
-div#page a:link {
-  color:white;
-  text-decoration:none;
-}
-
-div#page a:visited {
-  color:white;  margin-left: auto;
+div#page a:link, div#page a:visited {
+  color:white;  
+  margin-left: auto;
   margin-right: auto;
   text-decoration:none;
 }
@@ -40,11 +33,7 @@ div#page a:hover {
 }
 
 /*Links that are also titles*/
-div#involvements a:link {
-  color:black;
-}
-
-div#involvements a:visited {
+div#involvements a:link, div#involvements a:visited {
   color:black;
 }
 
@@ -52,7 +41,7 @@ div#involvements a:hover {
   color:rgb(84,76,75);
 }
 
-div#language a:visited {
+div#language a:link, div#language a:visited  {
   color:rgb(103,127,148);
 }
 
@@ -82,7 +71,6 @@ div#header {
 div#head {
   margin-top:24px;
 }
-
 
 @media screen and (min-width: 300px) {
 
@@ -114,16 +102,7 @@ ul#navigation li, ul#mainnavigation li {
   padding: 23px 0px 24px 3.333333333% /*10px / 300px*/;
 }
 
-ul#navigation li + li {
-  border-left: solid white 1px;
-}
-
-
-
-
-
 /*Body for Mobile Devices all pages*/
-
 div#mainbody {
   margin:auto 10%;
   padding-top:48px;
@@ -165,7 +144,7 @@ div#language {
 @media screen and (min-width: 519px) {
 
 div#page {
-  width:94.047619047619048%; /*474px / 504px */
+  width:94.047619047619048%; /*474px / 504px*/
   margin:  0 auto;
 }
 
@@ -173,9 +152,8 @@ div#page {
 
 div#header {
   float: right;
-  width: 96.835443037974684% /* 459 / 474*/;
+  width: 96.835443037974684% /* 459px / 474px*/;
   margin-bottom:60px;
-
 }
 
 div#header h1 {
@@ -193,12 +171,11 @@ ul#navigation li {
   padding: 18px 0px 27px 0px;
 }
 
-ul#mainnavigation li + li {
+ul#navigation li + li {
   border-left: solid white 1px;
 }
 
 /*Header for all pages */
-
 div#head {
   padding-bottom: 44px;
   margin-bottom:48px;
@@ -211,6 +188,9 @@ ul#mainnavigation li {
   padding: 10px 2.320675105%/*11px / 474px*/ 9px 2.320675105%;
 }
 
+ul#mainnavigation li + li {
+  border-left: solid white 1px;
+}
 }
 
 @media screen and (min-width: 642px) {
@@ -224,7 +204,6 @@ div#header {
   float:right;
   width: 86.91588785046729%; /*558px / 642px */
 }
-
 }
 
 @media screen and (min-width: 978px) {
@@ -243,23 +222,18 @@ div.index {
   position: absolute;
   top: 288px;
 }
-
 }
 
 /*Index*/
-
 div.index {
   text-align:right;
-  
 }
 
 div.index a {
   font-size:14px;
 }
 
-
 /*Bio */
-
 div.bio {
   font-size:18px;
 }
@@ -270,17 +244,11 @@ div.bio p {
 }
 
 /*Resume Page*/
-
 div#contact {
   text-align:center;
 }
 
 /*Porfolio Page  */
-
-div.portfolio {
-
-}
-
 h1.portfolio {
   text-align: center;
   font-size: 24px;
@@ -295,8 +263,6 @@ h2.portfolio_title {
 p.photo_information {
   width: 100%;
   border: 2px solid black;
-  /*margin:5%; 
-  /*padding: 15px 1.666666667%/*5px / 300px*/ /*0px 1.666666667%;*/
   padding-top:15px;
   text-align: center;
   background: white;
@@ -313,7 +279,6 @@ div.photo img {
 }
 
 /*Involvement*/
-
 div#involvements h1 {
   text-align:left;
   font-size:24px;
