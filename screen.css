@@ -247,6 +247,13 @@ div#contact {
   text-align:center;
 }
 
+p.job_title {
+  text-decoration:underline;
+  padding-left:5%;
+}
+
+
+
 /*Porfolio Page  */
 h1.portfolio {
   text-align: center;
