@@ -299,7 +299,7 @@ div.photo img {
   border: 1px solid black;
 }
 
-/*Involvement*/
+/*Service*/
 div#involvements h1 {
   text-align:left;
   font-size:24px;
@@ -321,6 +321,11 @@ div#involvements p {
   text-align:justify;
 }
 
+div#involvements h1.title {
+  margin-bottom:24px;
+  text-align:center;
+  text-decoration:underline;
+}
 
 
 
