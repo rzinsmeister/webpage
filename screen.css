@@ -17,7 +17,7 @@ body {
   line-height:24px;
   font-size:24px;
   font-family: 'Quicksand', sans-serif;
-  background-color:red;
+ 
 }
 
 /* Links */
@@ -154,6 +154,12 @@ div#header {
   float: right;
   width: 96.835443037974684% /* 459px / 474px*/;
   margin-bottom:60px;
+  border-left: solid teal 5px;
+  border-bottom: solid teal 5px;
+}
+
+div#page {
+  border-right:solid rgb(84,76,75) ;
 }
 
 div#header h1 {
