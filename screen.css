@@ -9,14 +9,14 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 /*My Site Styles*/
 html {
-  background-image: url("img/backgroundline.png");
-  background-repeat: repeat-x;
+  background: url("img/backgroundlinelower.png") repeat-x top left;
 }
 
 body {
   line-height:24px;
   font-size:24px;
   font-family: 'Quicksand', sans-serif;
+ 
 }
 
 /* Links */
@@ -64,7 +64,7 @@ ul.accessibility { display: none; }
 
 /*All pages */
 div#header {
-  margin-top:75px;
+  margin-top:40px;
 }
 
 div#head {
@@ -85,7 +85,7 @@ div#header, div#head {
 
 div#header h1 {
   font-size:36px;
-  padding: 12px 3.333333333% /*10px / 300px*/ 36px 0px;
+  padding: 12px 3.333333333% /*10px / 300px*/ 12px 0px;
   text-align:right;
 }
 
@@ -125,7 +125,7 @@ div#mainbody h4 {
 div#mainbody li {
   list-style-type: disc;
   font-size:16px;
-  margin-left: 10% /* 30px / 300px */;
+  margin-left: 10% /* 30px / 300pMorex */;
   padding-bottom:24px;
 }
 
@@ -153,25 +153,38 @@ div#header {
   float: right;
   width: 96.835443037974684% /* 459px / 474px*/;
   margin-bottom:60px;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
 }
+
+
 
 div#header h1 {
   font-size:48px;
   padding-bottom:24px;
   text-align:right;
-  margin-bottom:40px;
-  margin-top:32px;
+  margin-bottom:0px;
+  margin-top:6px;
 }
 
 ul#navigation li {
   float: left;
   text-align:center;
   width:24.841772151898734% /*117.75px / 474px*/; 
-  padding: 18px 0px 27px 0px;
+  padding: 6px 0px 12px 0px;
+  margin-top:12px;
 }
 
-ul#navigation li + li {
-  border-left: solid white 1px;
+div#line {
+  height:2px;
+  background-color:rgb(103,127,148);
+  margin-right:-5%;
+  margin-left:50%;
+
+  
 }
 
 /*Header for all pages */
@@ -187,9 +200,7 @@ ul#mainnavigation li {
   padding: 10px 2.320675105%/*11px / 474px*/ 9px 2.320675105%;
 }
 
-ul#mainnavigation li + li {
-  border-left: solid white 1px;
-}
+
 }
 
 @media screen and (min-width: 642px) {
@@ -214,12 +225,12 @@ div#page {
 div#header {
   float:right;
   width:65.644171779141104% ;/*558px / 978px*/
-  margin-right: -10%;
+  margin-right: 0%;
 }
 
 div.index {
   position: absolute;
-  top: 288px;
+  top: 175px;
 }
 }
 
