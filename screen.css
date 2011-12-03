@@ -9,8 +9,7 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 /*My Site Styles*/
 html {
-  background-image: url("img/backgroundline.png");
-  background-repeat: repeat-x;
+  background: url("img/backgroundlinelower.png") repeat-x top left;
 }
 
 body {
@@ -155,12 +154,13 @@ div#header {
   width: 96.835443037974684% /* 459px / 474px*/;
   margin-bottom:60px;
 
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 
 }
 
-div#page {
-  border-right:solid rgb(84,76,75) 2px;
-}
+
 
 div#header h1 {
   font-size:48px;
@@ -179,9 +179,9 @@ ul#navigation li {
 }
 
 div#line {
-  height:1px;
+  height:2px;
   background-color:rgb(103,127,148);
-  margin-right:-10%;
+  margin-right:-5%;
   margin-left:50%;
 
   
@@ -225,12 +225,12 @@ div#page {
 div#header {
   float:right;
   width:65.644171779141104% ;/*558px / 978px*/
-  margin-right: -10%;
+  margin-right: 0%;
 }
 
 div.index {
   position: absolute;
-  top: 288px;
+  top: 175px;
 }
 }
 
