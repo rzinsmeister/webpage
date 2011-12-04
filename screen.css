@@ -51,7 +51,7 @@ div#mainbody.index a:visited {
 
 /*Footer for all pages*/
 div#footer {
-  border-top: solid rgb(84,76,75) 3px;
+  border-top: solid rgb(103,127,148) 3px;
   margin-top:auto;
   position:relative;
   font-size: 12px;
@@ -85,6 +85,10 @@ div#header, div#head {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
+  
+  -webkit-box-shadow: 1px 1px 1px rgba(26, 34, 36, 0.5);
+  -moz-box-shadow: 1px 1px 1px rgba(26, 34, 36, 0.5);
+  box-shadow: 1px 1px 1px rgba(26, 34, 36, 0.5);
 
 }
 
@@ -177,10 +181,6 @@ div#header {
   -moz-border-radius: 10px;
   border-radius: 10px;
 
-  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  box-shadow: 1px 1px 1px rgba(26, 34, 36, 0.5);
-
 }
 
 
@@ -218,6 +218,7 @@ box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 div#head {
   padding-bottom: 44px;
   margin-bottom:48px;
+
 }
 
 ul#mainnavigation li {
@@ -278,6 +279,12 @@ div.bio {
 div.bio p {
   padding-bottom:24px;
   text-align:justify;
+}
+
+div#frame {
+  text-align:center;
+  padding-top:48px;
+
 }
 
 /*Resume Page*/
