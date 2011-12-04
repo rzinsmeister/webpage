@@ -301,6 +301,11 @@ p.job_title {
   padding-left:5%;
 }
 
+div#contact a:link, div#contact a:visited, div#contact a:hover {
+  color:grey;  
+  text-decoration:none;
+}
+
 
 
 /*Porfolio Page  */
