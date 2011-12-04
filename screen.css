@@ -287,6 +287,10 @@ div#frame {
 
 }
 
+div#frame h2 {
+  padding-bottom:24px;
+}
+
 /*Resume Page*/
 div#contact {
   text-align:center;
