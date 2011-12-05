@@ -16,7 +16,6 @@ body {
   line-height:24px;
   font-size:24px;
   font-family: 'Quicksand', sans-serif;
- 
 }
 
 /* Links */
@@ -84,12 +83,19 @@ div#header, div#head {
 
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
+  -o-border-radius:10px;
+  -khtml-border-radius:10px;
+  -ms-border-radius:10px;
+  -chrome-border-radius:10px;
   border-radius: 10px;
   
   -webkit-box-shadow: 1px 1px 1px rgba(26, 34, 36, 0.5);
   -moz-box-shadow: 1px 1px 1px rgba(26, 34, 36, 0.5);
+  -o-box-shadow:1px 1px 1px rgba(26, 34, 36, 0.5);
+  -khtml-box-shadow:1px 1px 1px rgba(26, 34, 36, 0.5);
+  -ms-box-shadow:1px 1px 1px rgba(26, 34, 36, 0.5);
+  -chrome-box-shadow:1px 1px 1px rgba(26, 34, 36, 0.5);
   box-shadow: 1px 1px 1px rgba(26, 34, 36, 0.5);
-
 }
 
 div#line {
@@ -97,15 +103,16 @@ div#line {
   background-color:rgb(103,127,148);
   margin-right:-3%;
   margin-left:30%;
+  margin-top:18px;
   
   -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-
-  margin-top:18px;
-  
+  -o-box-shadow:2px 2px 2px rgba(0, 0, 0, 0.5);
+  -khtml-box-shadow:2px 2px 2px rgba(0, 0, 0, 0.5);
+  -ms-box-shadow:2px 2px 2px rgba(0, 0, 0, 0.5);
+  -chrome-box-shadow:2px 2px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);  
 }
-
 
 div#header h1 {
   font-size:36px;
@@ -176,14 +183,7 @@ div#header {
   float: right;
   width: 96.835443037974684% /* 459px / 474px*/;
   margin-bottom:60px;
-
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-
 }
-
-
 
 div#header h1 {
   font-size:48px;
@@ -191,7 +191,6 @@ div#header h1 {
   text-align:right;
   margin-bottom:0px;
   margin-top:6px;
-
 }
 
 ul#navigation li {
@@ -207,18 +206,12 @@ div#line {
   background-color:rgb(103,127,148);
   margin-right:-5%;
   margin-left:50%;
--webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
--moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-
-  
 }
 
 /*Header for all pages */
 div#head {
   padding-bottom: 44px;
   margin-bottom:48px;
-
 }
 
 ul#mainnavigation li {
@@ -227,7 +220,6 @@ ul#mainnavigation li {
   text-align:center;
   padding: 10px 2.320675105%/*11px / 474px*/ 9px 2.320675105%;
 }
-
 
 }
 
@@ -284,7 +276,6 @@ div.bio p {
 div#frame {
   text-align:center;
   padding-top:48px;
-
 }
 
 div#frame h2 {
@@ -305,8 +296,6 @@ div#contact a:link, div#contact a:visited, div#contact a:hover {
   color:grey;  
   text-decoration:none;
 }
-
-
 
 /*Porfolio Page  */
 h1.portfolio {
@@ -340,9 +329,7 @@ div#afterschool_description h3 {
 div#afterschool_description p {
   color:rgb(84,76,80);
   text-align:justify;
-  
 }
-
 
 div.photo img {
   width: 100%;
