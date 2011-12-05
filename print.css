@@ -6,6 +6,7 @@ http://developer.yahoo.com/yui/license.html
 version: 2.9.0
 */
 html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var{font:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
+
 /*My Site Styles*/
 html {
 }
@@ -31,7 +32,7 @@ div#language a:link, div#language a:visited  {
 
 /*Footer*/
 div#footer {
-  border-top: solid rgb(84,76,75) 3px;
+  border-top: solid rgb(103,127,148) 3px;
   margin-top:auto;
   position:relative;
   font-size: 12px;
@@ -46,9 +47,10 @@ ul.accessibility { display: none; }
 div#header h1, div#head h1 {
   font-size:36px;
   text-align:right;
-  border-bottom: solid rgb(84,76,75) 5px;
+  border-bottom: solid rgb(103,127,148) 2px;
   margin-bottom:auto;
   margin-top:48px;
+  margin-left:30%;
 }
 
 ul#navigation li, ul#mainnavigation li {
@@ -110,6 +112,16 @@ div.bio {
 div.bio p {
   padding-bottom:24px;
   text-align:justify;
+}
+
+div#frame{
+  page-break-before: always;
+  text-align:center;
+  padding-top:48px;
+}
+
+div#frame h2 {
+  padding-bottom:24px;
 }
 
 /*Resume Page*/
