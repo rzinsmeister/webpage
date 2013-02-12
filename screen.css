@@ -159,10 +159,6 @@ div#mainbody li {
   padding-bottom:24px;
 }
 
-h4.dates {
-  padding-bottom:24px;
-  text-align:right;
-}
 
 div#language {
   text-align: right;
@@ -236,6 +232,7 @@ div#header {
 }
 }
 
+
 @media screen and (min-width: 978px) {
 
 div#page {
@@ -283,19 +280,75 @@ div#frame h2 {
 }
 
 /*Resume Page*/
+
 div#contact {
   text-align:center;
+	color:rgb(59,72,84);
 }
+
+div.resume_title {
+font-size:24px;
+padding-top:48px;
+}
+
+div.education {
+  height:2px;
+  background-color:rgb(103,127,148);
+  margin-right:0%;
+  margin-left:0%;
+  margin-top:6px;
+}
+
+div.university {
+	margin-top:12px;
+  font-weight: bold;
+  color:rgb(59,72,84);
+  padding-bottom:12px;
+  font-size:18px;
+}
+
+div.dates {
+	font-size: 12px;
+	padding-bottom:12px;
+}
+
+div.degree {
+	padding-left:5%;
+	font-size:16px;
+	padding-bottom:2px;
+	text-decoration:underline;
+	color:rgb(84,60,59);
+}
+
+div.degree_details {
+padding-left:10%;
+padding-bottom:12px;
+font-size:14px;
+}
+
+div.list {
+padding-bottom:12px;
+}
+
+div.lists {
+font-size:14px;
+padding-left:10%;
+}
+
+
 
 p.job_title {
-  text-decoration:underline;
   padding-left:5%;
+  font-weight: bold;
+  color:rgb(59,72,84);
 }
 
-div#contact a:link, div#contact a:visited, div#contact a:hover {
-  color:grey;  
-  text-decoration:none;
-}
+
+
+
+
+
+
 
 /*Porfolio Page  */
 h1.portfolio {
