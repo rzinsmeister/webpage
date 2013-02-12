@@ -16,6 +16,7 @@ body {
   line-height:24px;
   font-size:24px;
   font-family: 'Quicksand', sans-serif;
+
 }
 
 /* Links */
@@ -335,19 +336,11 @@ font-size:14px;
 padding-left:10%;
 }
 
-
-
 p.job_title {
   padding-left:5%;
   font-weight: bold;
   color:rgb(59,72,84);
 }
-
-
-
-
-
-
 
 
 /*Porfolio Page  */
@@ -393,7 +386,58 @@ div.photo img {
   border: 1px solid black;
 }
 
+
+/*Home Portfolio*/
+div.portfolio_title {
+font-size:24px;
+}
+
+div.education {
+  height:2px;
+  background-color:rgb(103,127,148);
+  margin-right:0%;
+  margin-left:0%;
+  margin-top:6px;
+  margin-bottom:24px;
+}
+
+
+div#portfolio a:link, div#portfolio a:visited {
+  color:rgb(59,72,84);
+}
+
+div#portfolio a:hover {
+  color:rgb(84,76,75);
+}
+
+div#portfolio h1{
+  padding-bottom:12px;
+  	margin-top:12px;
+  font-weight: bold;
+  color:rgb(59,72,84);
+  padding-bottom:12px;
+  font-size:18px;
+}
+
+div.description {
+font-size:14px;
+padding-left:10%;
+padding-bottom:6px;
+}
+
+div#memo {
+padding-bottom:24px;
+font-size:14px;
+color:rgb(84,60,59);
+}
+
 /*Service*/
+div.description2 {
+font-size:14px;
+padding-left:10%;
+padding-bottom:18px;
+}
+
 div#involvements h1 {
   text-align:left;
   font-size:24px;
@@ -423,9 +467,11 @@ div#involvements h1.title {
 
 
 
-
-
-
+div.screens {
+font-size:16px;
+padding-left:5%;
+padding-right:5%;
+}
 
 
 
