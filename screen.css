@@ -389,7 +389,7 @@ div.photo img {
 
 /*Home Portfolio*/
 div.portfolio_title {
-font-size:24px;
+	font-size:24px;
 }
 
 div.education {
@@ -401,6 +401,20 @@ div.education {
   margin-bottom:24px;
 }
 
+div#portitem a:link, div#portitem a:visited {
+	color:rgb(135,67,54);
+}
+
+div#portiem a:hover {
+	color:rgb();
+}
+
+div#portitem {
+	padding-bottom: 24px;
+}
+div#onlinepresence {
+	padding-bottom:16px;
+}
 
 div#portfolio a:link, div#portfolio a:visited {
   color:rgb(59,72,84);
